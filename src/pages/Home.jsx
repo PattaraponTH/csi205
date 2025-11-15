@@ -6,7 +6,7 @@ const Home = () => {
     <div
       style={{
         minHeight: "100vh",
-        backgroundColor: "#f0f0f0", // พื้นหลังโดยรวมอ่อน
+        backgroundColor: "#ffffffff", // พื้นหลังโดยรวมอ่อน
         padding: "2rem",
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
       }}
