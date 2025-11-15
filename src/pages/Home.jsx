@@ -1,5 +1,4 @@
 import React from "react";
-import profile from  '../assets/Home/profile.gif'
 
 const Home = () => {
   return (
@@ -46,14 +45,12 @@ const Home = () => {
           }}
         >
           <img
-            src={profile}
-            // "./image/profile.gif"
+            src="/csi205/assets/Home/profile.gif" // public folder path
             alt="นักศึกษา"
             style={{
               width: "350px",
               height: "360px",
               objectFit: "cover",
-              // borderRadius: "50%",
               border: "4px solid #ffffffff",
               marginBottom: "1rem",
             }}

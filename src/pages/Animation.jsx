@@ -2,18 +2,16 @@ import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-// Import images
-import basketball from "../assets/Animation/basketball.png";
-import football from "../assets/Animation/football.png";
-import voleyball from "../assets/Animation/voleyball.png";
-import human from "../assets/Animation/human.png";
-import logo from "../assets/Animation/logo.png";
-import field from "../assets/Animation/field.png";
-import cartoon from "../assets/Animation/cartoon.png";
-
+// ใช้ path ของ public folder
+const basketball = "/csi205/assets/Animation/basketball.png";
+const football = "/csi205/assets/Animation/football.png";
+const voleyball = "/csi205/assets/Animation/voleyball.png";
+const human = "/csi205/assets/Animation/human.png";
+const logo = "/csi205/assets/Animation/logo.png";
+const field = "/csi205/assets/Animation/field.png";
+const cartoon = "/csi205/assets/Animation/cartoon.png";
 
 const Animation = () => {
-
   const fWidth = 700;
   const fHeight = 400;
   const bDiameter = 200;
@@ -121,7 +119,7 @@ const Animation = () => {
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    margin: "0.0 auto",
+    margin: "0 auto",
   };
 
   return (
